@@ -1,0 +1,37 @@
+package selfProgramming;
+import java.util.Scanner;
+public class ReverseOrder {
+
+	public static void main(String[] args) {
+		
+		    int item0, item1, item2, item3, item4;
+		    int[] item = new int[5];
+		    int sum;
+		    Scanner input = new Scanner(System.in);
+		   
+		    item[2] = 5;
+		    item[4] = 7;
+		    item[1] = item[2]+item[4];
+		    for(int i=0; i<5; i++)
+		    	System.out.println("Item are: "+ "index " + i + "=" + item[i]);
+		   
+		    
+		    System.out.println("Enter five integers one number per line");
+		        
+		    item0 = input.nextInt();
+		    item1 = input.nextInt();     
+		    item2 = input.nextInt();
+		    item3 = input.nextInt();
+		    item4 = input.nextInt();
+		        
+		    sum = item0 + item1 + item2 + item3 + item4;
+		        
+		    System.out.println("The sum of the numbers = " + sum);
+		    System.out.println("The numbers in reverse order are: ");
+		    System.out.println(item4 + " " + item3 + " " + item2 + " " + item1 + " " + item0);
+		    
+		
+
+	}
+
+}
