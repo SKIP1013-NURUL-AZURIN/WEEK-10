@@ -8,7 +8,7 @@ public class Array5 {
 	    
     	Scanner sc = new Scanner(System.in);
     
-    	System.out.println("Enter six grades one number per line");
+    	System.out.println("Enter six grades per line");
     	for (int i = 0; i < grade.length; i++) {
     		grade[i] = sc.next();
     	}
