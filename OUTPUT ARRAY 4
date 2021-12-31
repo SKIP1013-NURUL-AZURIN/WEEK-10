@@ -1,0 +1,23 @@
+The sequences are : 
+10
+10
+
+10
+10
+
+10
+10
+
+Enter the integer for THREE sets according to TWO numbers per set
+10
+20
+
+11
+22
+
+100
+200
+
+The largest element of row 1 = 20
+The largest element of row 2 = 22
+The largest element of row 3 = 200
