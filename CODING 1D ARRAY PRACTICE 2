@@ -1,0 +1,29 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Array1D_Practice2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int classNo;
+		
+		
+		System.out.println("Enter the number of class : ");
+		classNo = sc.nextInt();
+		
+		String[] className = new String[classNo];
+		System.out.println("Enter the name of class");
+		for(int i = 0; i<classNo; i++) {
+			className[i] = sc.next();
+		}
+		
+		System.out.println("The name of classes that have in SMKSR : ");
+		for(int i = 0; i<classNo; i++) {
+			System.out.println(className[i] + " ");
+		}
+		
+
+	}
+
+}
