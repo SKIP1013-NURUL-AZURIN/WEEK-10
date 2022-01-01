@@ -1,0 +1,45 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Array8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner sc = new Scanner(System.in);
+		
+	    double[] list = new double[10];
+	    double largest;
+	    int maxi=0;
+	    
+	    double[] sales = new double[10];
+	    int index, maxIndex;
+	    double largestSale=0;
+
+	    largest = list[0];
+	    
+	    maxIndex = 0;
+	    
+	    System.out.println("Enter 10 sales");
+
+	    for(index = 1; index<sales.length;index++) {
+	           sales[index] = sc.nextDouble();
+	    	   if (sales[maxIndex] < sales[index]){
+	    	       maxIndex = index;
+	    	largestSale = sales[maxIndex];}}
+	    
+	    System.out.println("Largest in sales is "+largestSale+" at index "+maxIndex);
+	    
+	    System.out.println();
+
+	    System.out.println("Enter 10 list");
+	    
+	    for(int i=0; i<list.length;i++) {
+	    	list[i]=sc.nextDouble();
+	    	if(largest<list[i]) {
+	    		largest=list[i];
+	    		maxi=i;}}
+	    
+	    System.out.println("Largest in list are "+largest+" at index "+maxi);
+
+	}
+
+}
