@@ -1,0 +1,22 @@
+Enter Row size: 
+2
+Enter column Size: 
+3
+
+Enter 6 Elements: 
+12
+23
+34
+45
+56
+67
+
+Array's Elements with its indexes: 
+arr [0][0] = 12	
+arr [0][1] = 23	
+arr [0][2] = 34	
+
+
+arr [1][0] = 45	
+arr [1][1] = 56	
+arr [1][2] = 67	
