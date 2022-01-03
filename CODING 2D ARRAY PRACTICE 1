@@ -1,0 +1,33 @@
+package selfProgramming;
+
+public class Array2D_Practice1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[][] x = {
+				{2,4,6,8},
+				{1,3,5,7,9},
+				{},	
+		};
+		
+		System.out.println("Length of row 1: " + x[0].length);
+        System.out.println("Length of row 2: " + x[1].length);
+        System.out.println("Length of row 3: " + x[2].length);
+        
+        System.out.println();
+        
+        int[][] a = {
+                {11, -12, 13}, 
+                {-14, 15, -16, 19}, 
+                {-17}, 
+            };
+          
+            for (int i = 0; i < a.length; ++i) {
+                for(int j = 0; j < a[i].length; ++j) {
+                    System.out.println(a[i][j]);
+                }
+            }
+
+	}
+
+}
